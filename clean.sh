@@ -1,4 +1,5 @@
 #!/bin/bash
+# bash <(curl -Ls https://raw.githubusercontent.com/AlessandroPerazzetta/scripts/main/clean-apt.sh)
 systemctl disable systemd-networkd-wait-online.service
 systemctl mask systemd-networkd-wait-online.service
 # Remove wireless support (reinstall kernel required)
